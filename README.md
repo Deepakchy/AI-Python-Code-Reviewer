@@ -13,8 +13,7 @@ An AI-powered **Python Code Reviewer** built with **Streamlit** and **Google Gem
 2. Click **"Review Code"**  
 3. The AI **analyzes** the code and provides **feedback & improvements**  
 
-## **Installation & Setup**  
-### **1. Clone the Repository**  
-```bash
-git clone https://github.com/Deepakchy/ai-python-code-reviewer.git
-cd ai-python-code-reviewer
+
+
+
+
