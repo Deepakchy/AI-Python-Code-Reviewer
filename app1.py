@@ -4,7 +4,7 @@ import os
 
 # Set up the API key path dynamically
 base = os.path.dirname(os.path.abspath(__file__))
-file = os.path.join(base, "C:\Users\Lenovo\Desktop\innomatics\keys\gemini.txt")
+file = os.path.join(base, "keys\gemini.txt")
 
 # Load API key
 with open(file, "r") as f:
