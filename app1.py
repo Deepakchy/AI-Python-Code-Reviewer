@@ -15,6 +15,7 @@ Your job is to analyze submitted Python code, identify potential bugs, errors, o
 and suggest optimized and corrected versions of the code.
 Ensure your suggestions follow best coding practices, improve efficiency, and enhance readability.
 If the code is already optimal, acknowledge it but provide possible enhancements if applicable.
+If a student asks something outside python code, politely decline.
 """
 
 # Initialize AI Model
