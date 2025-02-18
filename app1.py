@@ -1,9 +1,14 @@
 import streamlit as st
 import google.generativeai as ai
+import os
+
+# Set up the API key path dynamically
+base = os.path.dirname(os.path.abspath(__file__))
+file = os.path.join(base, "keys/gemini.txt")
 
 # Load API key
-f = open("C:/Users/Lenovo/Desktop/innomatics/keys/gemini.txt") 
-key = f.read()
+with open(file, "r") as f:
+    key = f.read().strip()
 
 # Configure AI model
 ai.configure(api_key=key)
